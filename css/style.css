@@ -443,6 +443,7 @@ div {
 }
 .head {
   text-align: center;
+  margin-top: 2rem;
 }
 .head img {
   width: 15rem;
@@ -463,4 +464,24 @@ div {
   width: 75%;
   margin-top: 4rem;
   border-top: .25px solid LightGray;
+}
+.content {
+  width: 75%;
+  margin: 0 auto;
+}
+.content h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 2em;
+}
+.content h4 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: -1em;
+  color: LightGray;
+  font-weight: 600;
+}
+.content p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 2em;
 }
