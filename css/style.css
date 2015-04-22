@@ -1,3 +1,8 @@
+@media only screen and (max-width: 500px) {
+    .foot p {
+        width: 80%;
+    }
+}
 html {
   box-sizing: border-box;
 }
@@ -461,13 +466,14 @@ div {
   font-size: 1.1em;
 }
 .head hr {
-  width: 75%;
+  width: 80%;
   margin-top: 4rem;
   border-top: .25px solid LightGray;
 }
 .content {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
+  margin-bottom: 4rem;
 }
 .content h2 {
   font-family: "Open Sans", sans-serif;
@@ -484,4 +490,29 @@ div {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 2em;
+}
+.foot {
+  background-color: #222127;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.foot h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.foot p {
+  font-family: "Open Sans", sans-serif;
+  width: 60%;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+}
+.foot > .copyright {
+  margin-top: 3rem;
+  font-weight: 400;
 }
