@@ -456,13 +456,13 @@ div {
 }
 .head h3 {
   font-family: "Lato", sans-serif;
-  margin-top: -1.5em;
+  margin-top: -18px;
   font-weight: 300;
   font-size: 20px;
 }
 .head hr {
   width: 80%;
-  margin-top: 4rem;
+  margin-top: 64px;
   border-top: .25px solid LightGray;
 }
 .content {
@@ -474,12 +474,12 @@ div {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  margin-top: 2em;
+  margin-top: 48px;
 }
 .content h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  margin-top: -1em;
+  margin-top: -16px;
   color: LightGray;
   font-weight: 600;
 }
@@ -518,6 +518,19 @@ div {
   font-weight: 400;
 }
 @media only screen and (max-width: 500px) {
+    .head img {
+      width: 150px;
+    }
+    .head h1 {
+      font-size: 30px;
+    }
+    .head h3 {
+      font-size: 15px;
+      margin-top: -10px;
+    }
+    .head hr {
+      margin-top: 10px;
+    }
     .foot p {
         width: 80%;
     }
